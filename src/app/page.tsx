@@ -4,7 +4,9 @@ export default function Home() {
   return (
     <>
     <header className='text-white bg-black flex items-center p-5 justify-between shadow-lg rounded-bl-lg rounded-br-lg' >
-      <h1>Bem-Vindo!</h1>
+      <img className='h-[100%]'
+          width={100}
+          src={'/Group2.png'}/>
       <nav className='flex'>
         <span className='px-3 py-1 hover:bg-yellow-400 active:bg-yellow-500 focus:ring-yellow-300 rounded-full cursor-pointer'>Personagens</span>
         <span className='px-3 py-1 hover:bg-yellow-400 active:bg-yellow-500 focus:ring-yellow-300 rounded-full cursor-pointer'>Hérois</span>
@@ -17,54 +19,65 @@ export default function Home() {
     </header>
 
     <section className='flex place-items-center'>
-      <div className='bg-gradient-to-r from-yellow-500 to-transparent flex pl-10 text-9xl text-white font-bold place-items-center'>
+      <div className='bg-gradient-to-r from-green-800 to-transparent flex pl-10 text-9xl text-white font-bold place-items-center'>
         <h1>
-          <span className='text-detail'>Bem vindo ao úniverso dos hérois</span>
+          <span className='text-detail'>Bem vindo ao universo dos hérois</span>
         </h1>
       </div>
     </section>
 
-    <main>
-      <section>
-        <div>
-          <div>
-            <h1>Título</h1>
+    <main className='py-5 first:mt-0' >
+      <section className='flex mt-5 justify-center'>
+        <div className='bg-gradient-to-r gap-15 from-blue-800 to-detail p-6 shadow-lg flex'>
+          <div className='text-white flex flex-col w-[50%] justify-center'>
+            <h1 className='text-5xl font-bold'>Título</h1>
             <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, suscipit perferendis dolores eius aut officia. Quod repellendus modi sapiente? Aperiam placeat doloribus natus. Minima earum quos laboriosam aperiam voluptatibus? Deleniti!</span>
           </div>
+
+          <img className='h-[100%]'
+          width={500}
+          height={200}
+          src={'/Group1.png'}/>
+
         </div>
       </section>
-      <section>
-        <div>
-          <div>
-            <h1>Título</h1>
+      <section className='flex mt-5 justify-center'>
+        <div className='bg-gradient-to-r gap-15 from-red-800 to-detail p-6 shadow-lg flex'>
+          <div className='text-white flex flex-col w-[50%] justify-center'>
+            <h1 className='text-5xl font-bold'>Título</h1>
             <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam odit nesciunt nemo dolore quibusdam fugiat, perferendis aspernatur ab omnis consequatur reprehenderit modi quidem asperiores ex est at cupiditate sit rem!</span>
           </div>
+
+          <img className='h-[100%]'
+          width={500}
+          height={200}
+          src={'/Mvsdc.jpg'}/>
         </div>
       </section>
     </main>
 
-    <footer>
-      <div>
-        <h1>info</h1>
-        <ol>
+    <footer className='bg-yellow-600 text-black flex justify-evenly py-10'>
+      <div className='flex flex-col'>
+        <h1 className='font-black text-3x1'>info</h1>
+        <ol className='text-left'>
           <li>info</li>
           <li>info</li>
           <li>info</li>
         </ol>
       </div>
 
-      <div>
-        <h1>contact</h1>
-        <ol>
+      <div className='flex flex-col'>
+        <h1 className='font-black text-3x1'>contact</h1>
+        <ol className='text-left'>
           <li>contact</li>
           <li>contact</li>
           <li>contact</li>
         </ol>
       </div>
 
-      <div>
-        <h1>my</h1>
-        <ol>
+      <div className='flex flex-col'>
+        <h1 className='font-black text-3x1'>my</h1>
+        <ol className='text-left'>
           <li>my</li>
           <li>my</li>
           <li>my</li>
