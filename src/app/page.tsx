@@ -7,6 +7,7 @@ export default function Home() {
       <img className='h-[100%]'
           width={100}
           src={'/Group2.png'}/>
+          
       <nav className='flex'>
         <span className='px-3 py-1 hover:bg-yellow-400 active:bg-yellow-500 focus:ring-yellow-300 rounded-full cursor-pointer'>Personagens</span>
         <span className='px-3 py-1 hover:bg-yellow-400 active:bg-yellow-500 focus:ring-yellow-300 rounded-full cursor-pointer'>Hérois</span>
@@ -58,7 +59,7 @@ export default function Home() {
 
     <footer className='bg-yellow-600 text-black flex justify-evenly py-10'>
       <div className='flex flex-col'>
-        <h1 className='font-black text-3x1'>info</h1>
+        <h1 className='font-black text-3x1'>Info</h1>
         <ol className='text-left'>
           <li>info</li>
           <li>info</li>
@@ -67,7 +68,7 @@ export default function Home() {
       </div>
 
       <div className='flex flex-col'>
-        <h1 className='font-black text-3x1'>contact</h1>
+        <h1 className='font-black text-3x1'>Contact</h1>
         <ol className='text-left'>
           <li>contact</li>
           <li>contact</li>
@@ -76,7 +77,7 @@ export default function Home() {
       </div>
 
       <div className='flex flex-col'>
-        <h1 className='font-black text-3x1'>my</h1>
+        <h1 className='font-black text-3x1'>My</h1>
         <ol className='text-left'>
           <li>my</li>
           <li>my</li>
