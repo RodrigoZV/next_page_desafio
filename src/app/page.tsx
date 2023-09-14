@@ -1,6 +1,15 @@
+'use client'
+
 import Image from 'next/image'
 
 export default function Home() {
+
+  const information = {
+    text:'Bem vindo ao universo dos hérois'
+  }
+  
+  const text = "Bem vindo ao universo dos hérois"
+
   return (
     <>
     <header className='text-white bg-black flex items-center p-5 justify-between shadow-lg rounded-bl-lg rounded-br-lg' >
@@ -8,7 +17,7 @@ export default function Home() {
           width={100}
           height={50}
           alt='Logo'
-          src={'Group2.png'}/>
+          src={'/Group2.png'}/>
           
       <nav className='flex'>
         <span className='px-3 py-1 hover:bg-yellow-400 active:bg-yellow-500 focus:ring-yellow-300 rounded-full cursor-pointer'>Personagens</span>
@@ -24,7 +33,7 @@ export default function Home() {
     <section className='flex place-items-center'>
       <div className='bg-gradient-to-r from-green-800 to-transparent flex pl-10 text-9xl text-white font-bold place-items-center'>
         <h1>
-          <span className='text-detail'>Bem vindo ao universo dos hérois</span>
+          <span className='text-detail'>{text}</span>
         </h1>
       </div>
     </section>
