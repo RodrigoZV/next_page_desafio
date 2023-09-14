@@ -4,9 +4,11 @@ export default function Home() {
   return (
     <>
     <header className='text-white bg-black flex items-center p-5 justify-between shadow-lg rounded-bl-lg rounded-br-lg' >
-      <img className='h-[100%]'
+      <Image className='h-[100%]'
           width={100}
-          src={'/Group2.png'}/>
+          height={50}
+          alt='Logo'
+          src={'Group2.png'}/>
           
       <nav className='flex'>
         <span className='px-3 py-1 hover:bg-yellow-400 active:bg-yellow-500 focus:ring-yellow-300 rounded-full cursor-pointer'>Personagens</span>
@@ -35,9 +37,10 @@ export default function Home() {
             <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, suscipit perferendis dolores eius aut officia. Quod repellendus modi sapiente? Aperiam placeat doloribus natus. Minima earum quos laboriosam aperiam voluptatibus? Deleniti!</span>
           </div>
 
-          <img className='h-[100%]'
+          <Image className='h-[100%]'
           width={500}
           height={200}
+          alt='Junção'
           src={'/Group1.png'}/>
 
         </div>
@@ -49,9 +52,10 @@ export default function Home() {
             <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam odit nesciunt nemo dolore quibusdam fugiat, perferendis aspernatur ab omnis consequatur reprehenderit modi quidem asperiores ex est at cupiditate sit rem!</span>
           </div>
 
-          <img className='h-[100%]'
+          <Image className='h-[100%]'
           width={500}
           height={200}
+          alt='Junção dos Hérois'
           src={'/Mvsdc.jpg'}/>
         </div>
       </section>
